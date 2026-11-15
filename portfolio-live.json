@@ -6,7 +6,10 @@
     "bio": "متخصص في تطوير تطبيقات ويب متقدمة وبناء حلول برمجية مبتكرة باستخدام أحدث التقنيات، مع خبرة في تحليل البيانات واستخراج المؤشرات التي تدعم اتخاذ القرار وتُحسّن أداء الأعمال.",
     "logoUrl": "/mw-logo.png",
     "socialLinks": [
-      { "platform": "github", "url": "https://github.com/moneerafahaid-collab" },
+      {
+        "platform": "github",
+        "url": "https://github.com/moneerafahaid-collab"
+      },
       {
         "platform": "linkedin",
         "url": "https://www.linkedin.com/in/munirah-fuhaid-938991384/ar/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BIjmAUSjMS%2Bq%2BCfUEQiYQwA%3D%3D"
@@ -15,10 +18,9 @@
         "platform": "whatsapp",
         "url": "https://wa.me/966533506105?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%20MW.sa"
       },
-      { "platform": "mail", "url": "mailto:moneera.fahaid@gmail.com" },
       {
-        "platform": "suqoor",
-        "url": "https://moneerafahaid-collab.github.io/suqoor-tuwaiq-hail/"
+        "platform": "mail",
+        "url": "mailto:moneera.fahaid@gmail.com"
       }
     ]
   },
@@ -97,7 +99,8 @@
         "Docker",
         "GraphQL",
         "CI/CD",
-        "AWS"
+        "AWS",
+        "Quantum Network"
       ]
     },
     {
@@ -113,22 +116,33 @@
         "KPI",
         "KPI Development",
         "Digital Transformation",
-        "Digital Solutions"
+        "Digital Solutions",
+        "Excel",
+        "CANVA"
       ]
     },
     {
       "id": "engineering",
       "title": "هندسة البرمجيات والحوسبة",
       "tagline": "أسس هندسية، حلول متكاملة، وتقنيات الحوسبة الكمية",
-      "skills": ["Software Engineering", "Quantum Computing", "Quantum"]
+      "skills": [
+        "Software Engineering",
+        "Quantum Computing",
+        "Quantum"
+      ]
     }
   ],
   "projects": [
     {
       "id": "proj-ashabiya",
       "title": "منصة عشيبة السعودية",
-      "description": "إعداد وتطوير منصة سياحية ضمن وزارة السياحة تُبرز الوجهات والتجارب في المملكة، بواجهة عربية سهلة الاستخدام وتجربة مستخدم تناسب الزوار والمشغّلين.",
-      "tags": ["React", "Next.js", "TypeScript", "وزارة السياحة"],
+      "description": "إعداد وتطوير منصة سياحية تُبرز الوجهات والتجارب في المملكة، بواجهة عربية سهلة الاستخدام وتجربة مستخدم تناسب الزوار والمشغّلين.",
+      "tags": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS"
+      ],
       "gradient": "from-cyan-500 to-blue-600",
       "githubUrl": "https://github.com/moneerafahaid-collab/oshiba-saudi-rural",
       "liveUrl": "https://moneerafahaid-collab.github.io/oshiba-saudi-rural/"
@@ -136,8 +150,12 @@
     {
       "id": "proj-oud",
       "title": "منصة عود السعودية",
-      "description": "منصة رقمية للمزارعين ضمن هاكاثون جادةثون، تدعم التحول الرقمي في القطاع الزراعي.",
-      "tags": ["TypeScript", "React", "Tailwind CSS"],
+      "description": "منصة رقمية للمزارعين ضمن هاكاثون طيف لينك، تدعم التحول الرقمي في القطاع الزراعي.",
+      "tags": [
+        "TypeScript",
+        "React",
+        "Tailwind CSS"
+      ],
       "gradient": "from-lime-500 to-emerald-600",
       "githubUrl": "https://github.com/moneerafahaid-collab/oud.saudi",
       "liveUrl": "https://moneerafahaid-collab.github.io/oud.saudi/",
@@ -145,120 +163,194 @@
       "brandLogoAlt": "شعار منصة عود السعودية"
     },
     {
-      "id": "proj-hail-amanah-site",
-      "title": "إعادة تحديث موقع أمانة حائل",
-      "description": "تم إعادة تحديث موقع أمانة حائل وفق معايير هيئة الحكومة الرقمية وبما يتوافق مع كود المنصات المعتمد لضمان جودة أعلى وتجربة مستخدم أفضل.",
-      "tags": ["HTML", "CSS", "UX", "الحكومة الرقمية"],
-      "gradient": "from-sky-500 to-cyan-600"
-    },
-    {
       "id": "proj-hail-certificates",
       "title": "موقع إصدار شهادات في أمانة حائل",
       "description": "موقع لإصدار شهادات المتدربين والمتطوعين في أمانة حائل، مزوّد بختم إلكتروني غير قابل للتزوير، يضمن موثوقية الشهادات وسهولة التحقق منها.",
-      "tags": ["HTML", "CSS", "شهادات", "الحكومة الرقمية"],
-      "gradient": "from-teal-500 to-emerald-700"
-    },
-    {
-      "id": "proj-qiass-docs",
-      "title": "نظام ذكي لمستندات قياس الهيئة",
-      "description": "نظام ذكي لأمانة حائل يقوم بحساب وتقييم المستندات وفق قياس الهيئة قبل إرسالها، ويُنجز العملية بسرعة أعلى مع دقة تصل إلى 70%.",
-      "tags": ["AI", "Python", "KPI", "أمانة حائل"],
-      "gradient": "from-indigo-500 to-blue-700"
-    },
-    {
-      "id": "proj-matrix-ops",
-      "title": "العمليات المشاكسة في عالم المصفوفات",
-      "description": "رحلة مختصرة بين أهم العمليات والمصفوفات التي ستقابلها في عالم الكم — ضمن الأكاديمية السعودية الرقمية.",
-      "tags": ["Quantum", "Matrices", "تعليم"],
-      "gradient": "from-fuchsia-500 to-violet-700",
-      "brandLogoUrl": "/sda-logo.png",
-      "brandLogoAlt": "شعار الأكاديمية السعودية الرقمية"
+      "tags": [
+        "HTML",
+        "CSS",
+        "شهادات",
+        "الحكومة الرقمية"
+      ],
+      "gradient": "from-teal-500 to-emerald-700",
+      "imageUrl": "/projects/hail-certificates-preview.png"
     },
     {
       "id": "proj-hail-digital",
       "title": "لوحة مؤشرات التحول الرقمي — أمانة حائل",
       "description": "داشبورد تفاعلي لمتابعة مؤشرات الأداء في وكالة التحول الرقمي بأمانة منطقة حائل، يعرض البيانات بصورة واضحة ويدعم متابعة التقدم واتخاذ القرار.",
-      "tags": ["Power BI", "KPI", "TypeScript"],
+      "tags": [
+        "Power BI",
+        "KPI",
+        "TypeScript"
+      ],
       "gradient": "from-violet-500 to-purple-600",
       "githubUrl": "https://github.com/moneerafahaid-collab/powr-bi-dashbo",
       "liveUrl": "https://moneerafahaid-collab.github.io/powr-bi-dashbo/"
     },
     {
+      "id": "proj-amanah-hail-portal",
+      "title": "إعادة هيكلة وتحديث موقع أمانة منطقة حائل",
+      "description": "إعادة هيكلة وتحديث البوابة الإلكترونية لأمانة منطقة حائل لتقديم الموقع وخدماته الرقمية بصورة أوضح وأسهل للزوار.",
+      "tags": [
+        "إعادة الهيكلة",
+        "تحديث المواقع",
+        "الخدمات الرقمية"
+      ],
+      "gradient": "from-emerald-500 to-teal-600",
+      "imageUrl": "/projects/amanah-hail-preview.jpg",
+      "liveUrl": "https://amanathail.gov.sa/Portal/"
+    },
+    {
       "id": "proj-hail-emarah",
       "title": "إعداد الهيكلة التقنية — إمارة منطقة حائل",
       "description": "تنظيم وإعداد الهيكلة البياناتية والتقنية لإمارة منطقة حائل، بما يتوافق مع متطلبات الحوكمة والتحول الرقمي وربط مؤشرات الأداء.",
-      "tags": ["HTML", "تحليل البيانات", "KPI"],
+      "tags": [
+        "HTML",
+        "تحليل البيانات",
+        "KPI"
+      ],
       "gradient": "from-emerald-500 to-teal-600",
       "githubUrl": "https://github.com/moneerafahaid-collab/Emirate-of-Hail",
       "liveUrl": "https://moneerafahaid-collab.github.io/Emirate-of-Hail/"
     },
     {
       "id": "proj-daleelak",
-      "title": "دليلك في جادة",
+      "title": "جادة حائل الذكية",
       "description": "دليل سياحي ذكي تابع لأمانة حائل يساعد الزوار على استكشاف الوجهات والتجارب في منطقة حائل بسهولة.",
-      "tags": ["TypeScript", "React", "سياحة", "أمانة حائل"],
+      "tags": [
+        "TypeScript",
+        "React",
+        "سياحة",
+        "أمانة حائل"
+      ],
       "gradient": "from-sky-500 to-indigo-600",
-      "githubUrl": "https://github.com/moneerafahaid-collab/daleelak-fi-jadah"
+      "githubUrl": "https://github.com/moneerafahaid-collab/daleelak-fi-jadah",
+      "imageUrl": "/projects/jadah-hail-preview.jpg",
+      "liveUrl": "https://rahaf-alzabni.github.io/Jadah-Hail-Digital/",
+      "brandLogoUrl": "/hail-municipality-logo.png",
+      "brandLogoAlt": "شعار أمانة منطقة حائل"
     },
     {
       "id": "proj-ayn",
       "title": "عين الحي",
       "description": "تطبيق ويب تفاعلي تابع لأمانة حائل يخدم المجتمع المحلي ويقدّم تجربة مستخدم حديثة.",
-      "tags": ["TypeScript", "React", "أمانة حائل"],
+      "tags": [
+        "TypeScript",
+        "React",
+        "أمانة حائل"
+      ],
       "gradient": "from-fuchsia-500 to-pink-600",
       "githubUrl": "https://github.com/moneerafahaid-collab/Ayn-Al-Hay",
-      "liveUrl": "https://moneerafahaid-collab.github.io/Ayn-Al-Hay/"
+      "liveUrl": "https://moneerafahaid-collab.github.io/Ayn-Al-Hay/",
+      "imageUrl": "/projects/ayn-al-hay-preview.jpg",
+      "brandLogoUrl": "/hail-municipality-logo.png",
+      "brandLogoAlt": "شعار أمانة منطقة حائل"
     },
     {
       "id": "proj-mw-quiz",
       "title": "مسابقة MW",
-      "description": "تطبيق مسابقة تفاعلي ضمن وزارة التعليم مع روبوت ذكي لتجربة مشاركة ممتعة وسريعة.",
-      "tags": ["TypeScript", "React", "AI", "وزارة التعليم"],
+      "description": "تطبيق مسابقة تفاعلي مع روبوت ذكي لتجربة مشاركة ممتعة وسريعة.",
+      "tags": [
+        "TypeScript",
+        "React",
+        "AI"
+      ],
       "gradient": "from-rose-500 to-orange-500",
       "githubUrl": "https://github.com/moneerafahaid-collab/mw-quiz",
-      "liveUrl": "https://moneerafahaid-collab.github.io/mw-quiz/"
+      "liveUrl": "https://moneerafahaid-collab.github.io/mw-quiz/",
+      "imageUrl": "/projects/mw-quiz-preview.jpg"
+    },
+    {
+      "id": "proj-nadee-assistant",
+      "title": "مساعد نضيء الذكي",
+      "description": "مساعد ذكي تابع لأمانة حائل لاستكشاف المجالات والمعايير ومستويات النضج في المؤشر الوطني للبيانات — دورة القياس الثالثة.",
+      "tags": [
+        "ذكاء اصطناعي",
+        "إدارة البيانات",
+        "المؤشر الوطني للبيانات",
+        "أمانة حائل"
+      ],
+      "gradient": "from-blue-600 to-teal-500",
+      "imageUrl": "/projects/nadee-smart-assistant-preview.jpg",
+      "liveUrl": "https://elaf-1x.github.io/nadee-smart-assistant/",
+      "brandLogoUrl": "/hail-municipality-logo.png",
+      "brandLogoAlt": "شعار أمانة منطقة حائل"
     },
     {
       "id": "proj-saudia-kpi",
       "title": "منصة KPIs بالذكاء الاصطناعي — الخطوط السعودية",
       "description": "تطوير منصة لمؤشرات الأداء مدعومة بالذكاء الاصطناعي لشركة الخطوط السعودية، باستخدام Python وDjango لتحليل البيانات وبناء التقارير والمتابعة الذكية.",
-      "tags": ["Python", "Django", "AI", "KPI"],
-      "gradient": "from-amber-500 to-orange-600"
-    },
-    {
-      "id": "proj-1",
-      "title": "منصة التجارة الإلكترونية",
-      "description": "تطبيق ويب متكامل للتسوق عبر الإنترنت مع نظام دفع آمن وإدارة المنتجات — لركن الظبي للعقارات.",
-      "tags": ["React", "Node.js", "MongoDB", "Stripe"],
-      "gradient": "from-cyan-500 to-blue-600",
-      "githubUrl": "https://github.com/moneerafahaid-collab/watn",
-      "brandLogoUrl": "/rukn-aldhabi-logo.png",
-      "brandLogoAlt": "شعار ركن الظبي للعقارات"
+      "tags": [
+        "Python",
+        "Django",
+        "AI",
+        "KPI"
+      ],
+      "gradient": "from-amber-500 to-orange-600",
+      "imageUrl": "/projects/saudia-kpi-preview.jpg"
     },
     {
       "id": "proj-2",
-      "title": "تطبيق إدارة المشاريع",
-      "description": "نظام شامل لإدارة المهام والفرق مع لوحة تحكم تحليلية متقدمة",
-      "tags": ["Next.js", "PostgreSQL", "GraphQL"],
-      "gradient": "from-purple-500 to-pink-600",
-      "githubUrl": "https://github.com/moneerafahaid-collab/WATN-2-"
+      "title": "تطبيق ملاعب حائل",
+      "description": "منصة إلكترونية لحجز الملاعب والمرافق الرياضية التابعة للأمانة، وإدارة جداول الحجوزات، والدفع الإلكتروني. يمكن الدخول إليها كمرحلة أولى عبر خدماتي في توكلنا لخدمات أمانة منطقة حائل.",
+      "tags": [
+        "حجز الملاعب",
+        "إدارة الحجوزات",
+        "الدفع الإلكتروني",
+        "خدمات أمانة حائل"
+      ],
+      "gradient": "from-emerald-500 to-green-700",
+      "githubUrl": "https://github.com/moneerafahaid-collab/WATN-2-",
+      "imageUrl": "/projects/malaeb-hail-preview.jpg",
+      "liveUrl": "https://moneerafahaid-collab.github.io/malaeb-hail/"
     },
     {
       "id": "proj-3",
-      "title": "منصة التعلم الإلكتروني",
-      "description": "منصة تعلم إلكتروني تابعة لوزارة التعليم مع دروس فيديو واختبارات وتتبع التقدم.",
-      "tags": ["React", "Firebase", "TypeScript", "وزارة التعليم"],
+      "title": "العمليات المشاكسة في عالم الكوانتم",
+      "description": "تجربة تعليمية تفاعلية ضمن الأكاديمية السعودية الرقمية لاستكشاف جبر المصفوفات الكمية ومقارنة العمليات الكلاسيكية والكمية عبر محاكي يعمل في المتصفح.",
+      "tags": [
+        "الكمّ والحوسبة الكمية",
+        "جبر المصفوفات",
+        "محاكاة تفاعلية",
+        "الأكاديمية السعودية الرقمية"
+      ],
       "gradient": "from-green-500 to-emerald-600",
       "githubUrl": "https://github.com/moneerafahaid-collab/contact",
-      "liveUrl": "https://moneerafahaid-collab.github.io/contact/"
+      "liveUrl": "https://moneerafahaid-collab.github.io/quantum-matrix-ops/",
+      "imageUrl": "/projects/quantum-matrix-ops-preview.jpg",
+      "brandLogoUrl": "/sda-logo.png",
+      "brandLogoAlt": "شعار الأكاديمية السعودية الرقمية"
     },
     {
       "id": "proj-4",
-      "title": "لوحة تحكم تحليلية",
-      "description": "dashboard متقدم لتحليل البيانات وعرض الإحصائيات بشكل تفاعلي",
-      "tags": ["Vue.js", "D3.js", "Python"],
-      "gradient": "from-orange-500 to-red-600",
-      "githubUrl": "https://github.com/moneerafahaid-collab/watn"
+      "title": "لوحة قيادة — الخوزامى للمرصاد التميزي",
+      "description": "لوحة قيادة تنفيذية لتمكين إدارة التميز المؤسسي من متابعة الأداء مقابل المستهدف، وقياس تقدم المبادرات، ورصد التعثر مبكرًا عبر مؤشرات واضحة وتقارير مختصرة. يدعم العرض التحليل ضمن نطاق الخوزامى للمرصاد التميزي: الرياض والقصيم وحائل.",
+      "tags": [
+        "التميز المؤسسي",
+        "مؤشرات الأداء",
+        "متابعة المبادرات",
+        "الرياض",
+        "القصيم",
+        "حائل"
+      ],
+      "gradient": "from-violet-500 to-indigo-600",
+      "githubUrl": "https://github.com/moneerafahaid-collab/watn",
+      "imageUrl": "/projects/khuzama-dashboard-preview.jpg"
+    },
+    {
+      "id": "proj-suqoor-tuwaiq-hail",
+      "title": "صقور طويق حائل",
+      "description": "موقع تعريفي لفريق صقور طويق في حائل، يستعرض الفريق وإنجازاته ومشاريعه في تطوير الحلول التقنية وتحليل البيانات والتحول الرقمي.",
+      "tags": [
+        "تطوير الحلول التقنية",
+        "تحليل البيانات",
+        "التحول الرقمي"
+      ],
+      "gradient": "from-cyan-500 to-blue-600",
+      "imageUrl": "/projects/suqoor-tuwaiq-hail-logo.png",
+      "imageFit": "contain",
+      "liveUrl": "https://moneerafahaid-collab.github.io/suqoor-tuwaiq-hail/"
     }
   ],
   "awards": [
@@ -267,18 +359,40 @@
       "title": "KPIs الذكي للخطوط السعودية",
       "event": "أفضل مشروع تدريب — تخصص علوم الحاسب",
       "place": "الأول",
-      "period": "25 أغسطس",
+      "period": "أغسطس 2025",
       "description": "حصل المشروع على جائزة أفضل مشروع تدريب في تخصص علوم الحاسب، ببناء منصة مؤشرات أداء ذكية لشركة الخطوط السعودية.",
-      "gradient": "from-amber-400 to-orange-500"
+      "gradient": "from-amber-400 to-orange-500",
+      "imageUrl": "/awards/saudia.png"
+    },
+    {
+      "id": "award-absher-tuwaiq",
+      "title": "تحديث وإعادة هيكلة موقع أبشر مع تذكير بالرسائل النصية",
+      "event": "هاكاثون أبشر طويق",
+      "place": "المركز 22",
+      "period": "ديسمبر 2025",
+      "description": "تحديث وإعادة هيكلة موقع أبشر وربطه بنظام تذكير عبر الرسائل النصية، ضمن هاكاثون أبشر طويق.",
+      "gradient": "from-lime-600 to-green-800",
+      "imageUrl": "/awards/absher-tuwaiq.png"
     },
     {
       "id": "award-hail-emarah",
       "title": "إعادة هيكلة مع شات ذكي وتحليل بيانات",
       "event": "هاكاثون إمارة منطقة حائل",
       "place": "المركز الثاني",
-      "period": "مايو 2025",
+      "period": "مايو 2026",
       "description": "مشروع في هاكاثون إمارة حائل شمل إعادة الهيكلة، إضافة شات ذكي مع تحليل البيانات، ومحاكي لـ Excel وPower BI لدعم اتخاذ القرار.",
-      "gradient": "from-violet-400 to-purple-600"
+      "gradient": "from-violet-400 to-purple-600",
+      "imageUrl": "/awards/hail-emarah.png"
+    },
+    {
+      "id": "award-oud-jadahathon",
+      "title": "منصة عود السعودية",
+      "event": "هاكاثون جادة",
+      "place": "المركز الأول",
+      "period": "يوليو 2026",
+      "description": "حصلت منصة عود السعودية على المركز الأول في هاكاثون جادة، تقديرًا لفكرتها في إعادة تدوير مخلفات النخيل والأشجار.",
+      "gradient": "from-emerald-500 to-teal-600",
+      "imageUrl": "/awards/jadah.png"
     },
     {
       "id": "award-ashabiya",
@@ -286,26 +400,60 @@
       "event": "هاكاثون وزارة السياحة",
       "place": "المركز السادس",
       "period": "يونيو 2026",
-      "description": "عشيبة السعودية منصة رقمية تُعنى بحفظ وتوثيق التراث السعودي والموروث الشعبي من مختلف مناطق المملكة، من خلال جمع القصص والحكايات والعادات والتجارب المتوارثة وتحويلها إلى محتوى رقمي تفاعلي. كما تتضمن المنصة مساعد عشيبة AI الذكي، الذي يساعد المستخدمين على الوصول إلى الخدمات والمحتوى المناسب لاهتماماتهم واحتياجاتهم، من خلال تحليل تفضيلاتهم وتقديم اقتراحات وتوصيات مخصصة بشكل ذكي وسريع، مما يثري تجربة المستخدم ويجعل استكشاف التراث أكثر سهولة وتفاعل.",
-      "gradient": "from-cyan-400 to-blue-600"
+      "description": "عشيبة السعودية منصة رقمية تُعنى بحفظ وتوثيق التراث السعودي والموروث الشعبي من مختلف مناطق المملكة، من خلال جمع القصص والحكايات والعادات والتجارب المتوارثة وتحويلها إلى محتوى رقمي تفاعلي. كما تتضمن المنصة مساعد عشيبة AI الذكي، الذي يساعد المستخدمين على الوصول إلى الخدمات والمحتوى المناسب لاهتماماتهم واحتياجاتهم، من خلال تحليل تفضيلاتهم وتقديم اقتراحات وتوصيات مخصصة بشكل ذكي وسريع، مما يثري تجربة المستخدم ويجعل استكشاف التراث أكثر سهولة وتفاعلاً.",
+      "gradient": "from-cyan-400 to-blue-600",
+      "imageUrl": "/awards/ministry-tourism.png"
     },
     {
       "id": "award-oud",
-      "title": "منصة عود السعودية",
-      "event": "هاكاثون جادةثون",
-      "place": "المركز الأول",
-      "period": "يوليو 2026",
-      "description": "منصة عود تحول مخلفات النخيل والأشجار إلى سماد عضوي آمن عبر فريق ميداني يجمع المخلفات ويعالجها ويعيدها للمزرعة بتكلفة أقل من التجاري مع منصة رقمية لطلب الخدمة ومتابعتها وتقنيات الدرونز وحساسات التربة لجعل المشروع متكامل وقابل للتنفيذ.",
-      "gradient": "from-emerald-400 to-teal-600"
-    },
-    {
-      "id": "award-tayf-link",
       "title": "منصة عود السعودية",
       "event": "هاكاثون طيف لينك",
       "place": "المركز الثاني",
       "period": "يوليو 2026",
       "description": "تقدم منصة عود السعودية خدمة متكاملة لتحويل مخلفات النخيل والأشجار إلى سماد عضوي آمن، عبر فريق سعودي ميداني يتولى جمع المخلفات ومعالجتها وإعادتها للمزرعة بتكلفة أقل من السماد التجاري. ومن خلال المنصة الرقمية يستطيع العميل طلب الخدمة، تحديد الموقع والكمية، متابعة التنفيذ، والاستفادة من دعم ذكي وورش توعوية لتعزيز إعادة التدوير والاستدامة.",
-      "gradient": "from-lime-400 to-green-600"
+      "gradient": "from-emerald-400 to-teal-600",
+      "imageUrl": "/awards/taiflink.png"
+    },
+    {
+      "id": "award-qsn-ajaa",
+      "title": "نظام QSN للشبكة الكمومية في المملكة",
+      "event": "هاكاثون فضاء أجا",
+      "place": "المركز السادس",
+      "period": "أكتوبر 2026",
+      "description": "نظام QSN لشبكة كمومية في المملكة العربية السعودية، حصل على المركز السادس في هاكاثون فضاء أجا.",
+      "gradient": "from-blue-500 to-indigo-600",
+      "imageUrl": "/awards/qsn.png"
+    },
+    {
+      "id": "award-quantum-safe-health-insurance",
+      "title": "Quantum-Safe Health Insurance",
+      "event": "هاكاثون هيلثون — جامعة الملك سعود",
+      "place": "المركز الرابع",
+      "period": "سبتمبر 2026",
+      "description": "مشروع يهدف إلى الحد من تكرار الفحوصات والعلاجات غير المبررة، وما قد يسببه ذلك من مخاطر صحية على المرضى واستنزاف رصيدهم التأميني.",
+      "gradient": "from-cyan-500 to-blue-600",
+      "imageUrl": "/awards/healthathon-ksu.png"
+    },
+    {
+      "id": "award-agentx-ashabiya",
+      "title": "وكيل عشيبة الذكي لمنصة عود السعودية",
+      "event": "هاكاثون AgentX الشرقية",
+      "place": "المركز الرابع",
+      "period": "أكتوبر 2026",
+      "description": "المشاركة بوكيل عشيبة ضمن منصة عود السعودية، مع تطوير عشيبة بكفاءة أعلى. حصل المشروع على المركز الرابع في هاكاثون AgentX الشرقية.",
+      "gradient": "from-blue-500 to-indigo-600",
+      "imageUrl": "/awards/agentx.png"
+    },
+    {
+      "id": "award-hail-horse-championship-2026",
+      "title": "بطولة حائل الدولية لجمال الخيل العربية الأصيلة 2026",
+      "event": "الراعي التقني — النسخة الخامسة",
+      "place": "الراعي التقني",
+      "period": "أكتوبر 2026",
+      "description": "تحقيق تحول رقمي شامل بنسبة 100% وأتمتة كاملة للعمليات والإجراءات عبر تشغيل النسخة الأولى من نظام KPIrex. أسهمت المنظومة في إدارة وتنظيم حدث دولي ضخم بمشاركة 260 خيلاً و169 مالكاً ومربطاً من 10 دول، وخدمة أكثر من 55 ألف مسجل و50 ألف زائر بفاعلية وكفاءة عالية.",
+      "gradient": "from-cyan-500 to-blue-600",
+      "imageUrl": "/awards/kpirex.png",
+      "linkUrl": "https://horse.kpirex.com/"
     }
   ],
   "contact": {
@@ -327,12 +475,18 @@
         "platform": "whatsapp",
         "url": "https://wa.me/966533506105?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%20MW.sa"
       },
-      { "platform": "mail", "url": "mailto:moneera.fahaid@gmail.com" },
+      {
+        "platform": "mail",
+        "url": "mailto:moneera.fahaid@gmail.com"
+      },
       {
         "platform": "linkedin",
         "url": "https://www.linkedin.com/in/munirah-fuhaid-938991384/ar/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BIjmAUSjMS%2Bq%2BCfUEQiYQwA%3D%3D"
       },
-      { "platform": "github", "url": "https://github.com/moneerafahaid-collab" }
+      {
+        "platform": "github",
+        "url": "https://github.com/moneerafahaid-collab"
+      }
     ]
   }
 }
